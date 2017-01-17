@@ -36,4 +36,4 @@ AddPizza <- function(a){
 }
 
 # Add pizza to every meal!
-better.meals <- lappy(meals, AddPizza)
+better.meals <- lapply(meals, AddPizza)
